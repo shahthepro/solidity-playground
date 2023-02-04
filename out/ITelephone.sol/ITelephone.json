@@ -1,0 +1,192 @@
+{
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_owner",
+          "type": "address"
+        }
+      ],
+      "name": "changeOwner",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "changeOwner(address)": "a6f9dae1"
+  },
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.10+commit.fc410830\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_owner\",\"type\":\"address\"}],\"name\":\"changeOwner\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"interfaces/ITelephone.sol\":\"ITelephone\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"interfaces/ITelephone.sol\":{\"keccak256\":\"0xc5f03b093235d09c2e8c220a148dbfac20c914a2cd550de711bcc18944fe6bd1\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://dfa4b513368ae3af9c5b05a13c72f6178afcc229f13f8fa5a60eb26fef0106de\",\"dweb:/ipfs/QmYMefQ7dFgrexJsa6DuPNiEcGWCbgagKPjPk6kAtQ9Ged\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.10+commit.fc410830"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "_owner",
+              "type": "address"
+            }
+          ],
+          "stateMutability": "nonpayable",
+          "type": "function",
+          "name": "changeOwner"
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {},
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [],
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "interfaces/ITelephone.sol": "ITelephone"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "interfaces/ITelephone.sol": {
+        "keccak256": "0xc5f03b093235d09c2e8c220a148dbfac20c914a2cd550de711bcc18944fe6bd1",
+        "urls": [
+          "bzz-raw://dfa4b513368ae3af9c5b05a13c72f6178afcc229f13f8fa5a60eb26fef0106de",
+          "dweb:/ipfs/QmYMefQ7dFgrexJsa6DuPNiEcGWCbgagKPjPk6kAtQ9Ged"
+        ],
+        "license": "MIT"
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "interfaces/ITelephone.sol",
+    "id": 691,
+    "exportedSymbols": {
+      "ITelephone": [
+        690
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "32:99:10",
+    "nodes": [
+      {
+        "id": 684,
+        "nodeType": "PragmaDirective",
+        "src": "32:23:10",
+        "nodes": [],
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ]
+      },
+      {
+        "id": 690,
+        "nodeType": "ContractDefinition",
+        "src": "57:73:10",
+        "nodes": [
+          {
+            "id": 689,
+            "nodeType": "FunctionDefinition",
+            "src": "82:46:10",
+            "nodes": [],
+            "functionSelector": "a6f9dae1",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "changeOwner",
+            "nameLocation": "91:11:10",
+            "parameters": {
+              "id": 687,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 686,
+                  "mutability": "mutable",
+                  "name": "_owner",
+                  "nameLocation": "111:6:10",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 689,
+                  "src": "103:14:10",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 685,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "103:7:10",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "102:16:10"
+            },
+            "returnParameters": {
+              "id": 688,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "127:0:10"
+            },
+            "scope": 690,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "ITelephone",
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": false,
+        "linearizedBaseContracts": [
+          690
+        ],
+        "name": "ITelephone",
+        "nameLocation": "67:10:10",
+        "scope": 691,
+        "usedErrors": []
+      }
+    ],
+    "license": "MIT"
+  },
+  "id": 10
+}

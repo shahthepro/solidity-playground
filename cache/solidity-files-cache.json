@@ -1,0 +1,471 @@
+{
+  "_format": "ethers-rs-sol-cache-3",
+  "paths": {
+    "artifacts": "out",
+    "build_infos": "out/build-info",
+    "sources": "contracts",
+    "tests": "test",
+    "scripts": "script",
+    "libraries": [
+      "lib"
+    ]
+  },
+  "files": {
+    "contracts/Building.sol": {
+      "lastModificationDate": 1674970775537,
+      "contentHash": "baa8c80d1b35e73ddfb6c923387e0769",
+      "sourceName": "contracts/Building.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "Building": {
+          "0.8.10+commit.fc410830.Darwin.appleclang": "Building.sol/Building.json"
+        },
+        "IElevator": {
+          "0.8.10+commit.fc410830.Darwin.appleclang": "Building.sol/IElevator.json"
+        }
+      }
+    },
+    "contracts/CoinFlipWrecker.sol": {
+      "lastModificationDate": 1674918151232,
+      "contentHash": "c45ee30494f9222b4d2d6f11b9384a2e",
+      "sourceName": "contracts/CoinFlipWrecker.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "interfaces/ICoinFlip.sol"
+      ],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "CoinFlipWrecker": {
+          "0.8.10+commit.fc410830.Darwin.appleclang": "CoinFlipWrecker.sol/CoinFlipWrecker.json"
+        }
+      }
+    },
+    "contracts/Delegation.sol": {
+      "lastModificationDate": 1674922986410,
+      "contentHash": "61a55e98e79821d02a0c4fa44420a161",
+      "sourceName": "contracts/Delegation.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "Delegate": {
+          "0.8.10+commit.fc410830.Darwin.appleclang": "Delegation.sol/Delegate.json"
+        },
+        "Delegation": {
+          "0.8.10+commit.fc410830.Darwin.appleclang": "Delegation.sol/Delegation.json"
+        }
+      }
+    },
+    "contracts/ForceWrecker.sol": {
+      "lastModificationDate": 1674924067678,
+      "contentHash": "9ca3ef7c286e91c7ebf4ff430ced5888",
+      "sourceName": "contracts/ForceWrecker.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "ForceWrecker": {
+          "0.8.10+commit.fc410830.Darwin.appleclang": "ForceWrecker.sol/ForceWrecker.json"
+        }
+      }
+    },
+    "contracts/ForeverKing.sol": {
+      "lastModificationDate": 1674970779138,
+      "contentHash": "f1654c72de455266f9868ca5b7d042db",
+      "sourceName": "contracts/ForeverKing.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "ForeverKing": {
+          "0.8.10+commit.fc410830.Darwin.appleclang": "ForeverKing.sol/ForeverKing.json"
+        }
+      }
+    },
+    "contracts/Privacy.sol": {
+      "lastModificationDate": 1674956888138,
+      "contentHash": "216fb9376ca282c1d603fcc3812337ec",
+      "sourceName": "contracts/Privacy.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "Privacy": {
+          "0.8.10+commit.fc410830.Darwin.appleclang": "Privacy.sol/Privacy.json"
+        }
+      }
+    },
+    "contracts/Reentrant.sol": {
+      "lastModificationDate": 1674958998113,
+      "contentHash": "dd96d85c1ff01af3a66ef58bebbc12ca",
+      "sourceName": "contracts/Reentrant.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "IReentrance": {
+          "0.8.10+commit.fc410830.Darwin.appleclang": "Reentrant.sol/IReentrance.json"
+        },
+        "Reentrant": {
+          "0.8.10+commit.fc410830.Darwin.appleclang": "Reentrant.sol/Reentrant.json"
+        }
+      }
+    },
+    "contracts/TelephoneWrecker.sol": {
+      "lastModificationDate": 1674920645652,
+      "contentHash": "76c4b769ca2cea8b2dd91ab517053e9a",
+      "sourceName": "contracts/TelephoneWrecker.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "interfaces/ITelephone.sol"
+      ],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "TelephoneWrecker": {
+          "0.8.10+commit.fc410830.Darwin.appleclang": "TelephoneWrecker.sol/TelephoneWrecker.json"
+        }
+      }
+    },
+    "contracts/Trespasser1.sol": {
+      "lastModificationDate": 1674988258422,
+      "contentHash": "3265f87a06ea6782990498b71051255f",
+      "sourceName": "contracts/Trespasser1.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "IGatekeeperOne": {
+          "0.8.10+commit.fc410830.Darwin.appleclang": "Trespasser1.sol/IGatekeeperOne.json"
+        },
+        "Trespasser1": {
+          "0.8.10+commit.fc410830.Darwin.appleclang": "Trespasser1.sol/Trespasser1.json"
+        }
+      }
+    },
+    "interfaces/ICoinFlip.sol": {
+      "lastModificationDate": 1674917282038,
+      "contentHash": "44c0c65796a9cd5a4fa0c08485f6f634",
+      "sourceName": "interfaces/ICoinFlip.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "ICoinFlip": {
+          "0.8.10+commit.fc410830.Darwin.appleclang": "ICoinFlip.sol/ICoinFlip.json"
+        }
+      }
+    },
+    "interfaces/ITelephone.sol": {
+      "lastModificationDate": 1674920275892,
+      "contentHash": "3a54770c0afa9796dd925e3471830c3a",
+      "sourceName": "interfaces/ITelephone.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "ITelephone": {
+          "0.8.10+commit.fc410830.Darwin.appleclang": "ITelephone.sol/ITelephone.json"
+        }
+      }
+    }
+  }
+}
