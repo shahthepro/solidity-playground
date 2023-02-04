@@ -10,7 +10,7 @@ contract ForeverKing {
 
   function snatchCrown(address king) payable public {
     require(owner == msg.sender, "ERR_NOT_OWNER");
-    (bool sent, bytes memory data) = payable(king).call{value: msg.value}("");
+    (bool sent,) = payable(king).call{value: msg.value}("");
     require(sent, "ERR_FAIL_TRANSFER");
   }
 

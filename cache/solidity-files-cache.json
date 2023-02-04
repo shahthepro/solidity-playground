@@ -180,8 +180,8 @@
       }
     },
     "contracts/ForeverKing.sol": {
-      "lastModificationDate": 1674970779138,
-      "contentHash": "f1654c72de455266f9868ca5b7d042db",
+      "lastModificationDate": 1675519354105,
+      "contentHash": "7a5b85ea6fa4864a545a37b0311f5646",
       "sourceName": "contracts/ForeverKing.sol",
       "solcConfig": {
         "settings": {
@@ -256,6 +256,46 @@
       "artifacts": {
         "GatekeeperOne": {
           "0.8.10+commit.fc410830.Darwin.appleclang": "GatekeeperOne.sol/GatekeeperOne.json"
+        }
+      }
+    },
+    "contracts/GatekeeperTwo.sol": {
+      "lastModificationDate": 1675521629690,
+      "contentHash": "7cd3bb3540798f2d50aa1719f70754ee",
+      "sourceName": "contracts/GatekeeperTwo.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "GatekeeperTwo": {
+          "0.8.10+commit.fc410830.Darwin.appleclang": "GatekeeperTwo.sol/GatekeeperTwo.json"
         }
       }
     },
@@ -424,6 +464,49 @@
         },
         "Trespasser1": {
           "0.8.10+commit.fc410830.Darwin.appleclang": "Trespasser1.sol/Trespasser1.json"
+        }
+      }
+    },
+    "contracts/Trespasser2.sol": {
+      "lastModificationDate": 1675522279885,
+      "contentHash": "779f9f0a08423d5083356880c22198f0",
+      "sourceName": "contracts/Trespasser2.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "IGatekeeperTwo": {
+          "0.8.10+commit.fc410830.Darwin.appleclang": "Trespasser2.sol/IGatekeeperTwo.json"
+        },
+        "Trespasser2": {
+          "0.8.10+commit.fc410830.Darwin.appleclang": "Trespasser2.sol/Trespasser2.json"
         }
       }
     },
@@ -1210,6 +1293,64 @@
       "artifacts": {
         "Trespasser1Test": {
           "0.8.10+commit.fc410830.Darwin.appleclang": "Trespasser1.t.sol/Trespasser1Test.json"
+        }
+      }
+    },
+    "test/Trespasser2.t.sol": {
+      "lastModificationDate": 1675522251048,
+      "contentHash": "4f853012aaa4ce06ffef153af1d5ebfe",
+      "sourceName": "test/Trespasser2.t.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "contracts/GatekeeperTwo.sol",
+        "contracts/Trespasser2.sol",
+        "lib/forge-std/lib/ds-test/src/test.sol",
+        "lib/forge-std/src/Base.sol",
+        "lib/forge-std/src/StdAssertions.sol",
+        "lib/forge-std/src/StdChains.sol",
+        "lib/forge-std/src/StdCheats.sol",
+        "lib/forge-std/src/StdError.sol",
+        "lib/forge-std/src/StdJson.sol",
+        "lib/forge-std/src/StdMath.sol",
+        "lib/forge-std/src/StdStorage.sol",
+        "lib/forge-std/src/StdUtils.sol",
+        "lib/forge-std/src/Test.sol",
+        "lib/forge-std/src/Vm.sol",
+        "lib/forge-std/src/console.sol",
+        "lib/forge-std/src/console2.sol",
+        "lib/forge-std/src/interfaces/IMulticall3.sol"
+      ],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "Trespasser1Test": {
+          "0.8.10+commit.fc410830.Darwin.appleclang": "Trespasser2.t.sol/Trespasser1Test.json"
         }
       }
     }
